@@ -63,7 +63,7 @@ export default function Services() {
   return (
     <div id="services">
       <div className="container px-8 my-16 mx-auto">
-        <h1 className="text-3xl font-semibold text-center my-6">What We Do?</h1>
+        <h1 className="text-xl font-semibold my-6">Our Services</h1>
         <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {services.map((service, i) => (
             <motion.div

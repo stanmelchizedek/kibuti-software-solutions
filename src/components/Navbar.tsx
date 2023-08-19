@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between">
         <img
           className="img max-w-[2.5rem]"
-          src="assets/kibuti.png"
+          src="assets/images/kibuti-logo.png"
           alt="kibuti"
         />
         <FontAwesomeIcon

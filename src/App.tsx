@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Tools from "./components/Tools";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import AboutUs from "./components/AboutUs";
 
 export default function App() {
   function toTop() {
@@ -16,6 +17,7 @@ export default function App() {
     <>
       <Navbar />
       <Header />
+      <AboutUs />
       <Services />
       <Tools />
       <ContactUs />
