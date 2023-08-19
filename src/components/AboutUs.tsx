@@ -7,7 +7,7 @@ export default function AboutUs(){
                 <div className="text-white">
                     <h1 className="text-xl">ABOUT US</h1>
                     <h3 className="text-3xl my-4">WHO ARE WE?</h3>
-                    <p className="text-sm">
+                    <p className="text-normal">
                         At Kibuti Software, we're a team of tech visionaries creating cutting-edge solutions that transform industries and empower businesses. Guided by collaboration and client-central, we craft elegant software tailored to unique needs. With a commitment to staying ahead in technology, we invite you to join us in shaping the future through innovation at Kibuti Software.
                     </p>
                 </div>

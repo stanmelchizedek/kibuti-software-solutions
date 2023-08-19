@@ -12,7 +12,7 @@ export default function Header() {
             </h1>
           </Reveal>
           <Reveal>
-            <p className="mt-8 mb-12 text-lgn ">
+            <p className="mt-8 mb-12 text-normal">
             Elevating Experiences Through Innovative Software Solutions. Empowering Businesses with Cutting-Edge Technology
             </p>
           </Reveal>

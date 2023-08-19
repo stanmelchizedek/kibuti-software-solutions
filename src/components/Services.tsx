@@ -4,67 +4,52 @@ export default function Services() {
   const services = [
     {
       key: 1,
-      name: "Web Development",
+      name: "Web Design & Development",
       icon: "web-dev.png",
-      description:
-        "Our team of web developers helps your business stand out of the crowd in the online marketplace by providing brilliantly designed website",
     },
     {
       key: 2,
       name: "Mobile App Development",
-      icon: "mobile-dev.png",
-      description:
-        "Unleash your potential with apps that go beyond the screen, transforming ideas into seamless experiences in IOS and Android devices",
+      icon: "mobile-development.png",
     },
     {
       key: 3,
       name: "Payments integration system",
-      icon: "payment.png",
-      description:
-        "We seamlessly integrate with secure payment gateways, empowering smooth and convenient transactions for your business ",
+      icon: "payment-system.png",
     },
     {
       key: 4,
       name: "Mobile Games Development",
-      icon: "game-dev.png",
-      description:
-        "Our team of skilled game developers comes with a wealth of experience in both 2D and cutting-edge AR and 3D technologies. We are passionate about bringing your game ideas to life",
+      icon: "game-development.png",
     },
     {
       key: 5,
       name: "Domain & hosting service",
-      icon: "hosting.png",
-      description:
-        "Your online presence starts here. We offer reliable domain registration and hosting tailored to your needs",
+      icon: "web-hosting.png",
     },
     {
       key: 6,
       name: "AI & ML Solutions",
-      icon: "ai.png",
-      description:
-        "Empower your business with smart AI tools that analyze data and predict outcomes, unlocking new opportunities.",
+      icon: "artificial-intelligence.png",
     },
     {
       key: 7,
       name: "Bulk SMS & Email ",
-      icon: "bulk.png",
-      description:
-        "Reach your customers effortlessly. Our bulk messaging and email solutions ensure effective communication.",
+      icon: "bulk-sms.png",
     },
     {
       key: 8,
       name: "System security & testing",
-      icon: "sys-sec.png",
-      description:
-        "Our dedicated team is here to ensure the utmost protection and reliability of your systems.",
+      icon: "system-security.png",
     },
   ];
 
   return (
     <div id="services">
-      <div className="container px-8 my-16 mx-auto">
-        <h1 className="text-xl font-semibold my-6">Our Services</h1>
-        <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="container px-8 my-16 mx-auto text-blue-950">
+        <h1 className="text-xl font-bold">OUR SERVICES</h1>
+        <h3 className="text-3xl">What We Can Do For You</h3>
+        <div className="services mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {services.map((service, i) => (
             <motion.div
               variants={{
@@ -82,13 +67,12 @@ export default function Services() {
               initial={"hidden"}
               whileInView={"visible"}
               viewport={{ once: true, amount: 0.7 }}
-              className="p-6 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white border-4 rounded-2xl transition ease-in duration-100"
+              className="p-4 bg-slate-200 text-blue-950 hover:bg-slate-300 rounded-xl transition ease-in duration-100"
               key={service.key}
             >
-              <img className="mx-auto" src={`assets/${service.icon}`} alt="" />
-              <h3 className="text-center font-bold text-2xl">{service.name}</h3>
+              <img className="mx-auto w-14" src={`assets/images/${service.icon}`} alt="" />
               <br />
-              <p>{service.description}</p>
+              <p className="text-center">{service.name}</p>
             </motion.div>
           ))}
         </div>
