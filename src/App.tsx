@@ -4,9 +4,9 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
-import Tools from "./components/Tools";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import AboutUs from "./components/AboutUs";
+import Team from "./components/Team";
 
 export default function App() {
   function toTop() {
@@ -19,7 +19,7 @@ export default function App() {
       <Header />
       <AboutUs />
       <Services />
-      <Tools />
+      <Team />
       <ContactUs />
       {/* Scroll To Top Button */}
       <button

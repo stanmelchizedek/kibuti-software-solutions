@@ -70,9 +70,9 @@ export default function Services() {
               className="p-4 bg-slate-200 text-blue-950 hover:bg-slate-300 rounded-xl transition ease-in duration-100"
               key={service.key}
             >
-              <img className="mx-auto w-14" src={`assets/images/${service.icon}`} alt="" />
+              <img className="mx-auto w-10" src={`assets/images/${service.icon}`} alt="" />
               <br />
-              <p className="text-center">{service.name}</p>
+              <p className="text-center text-sm">{service.name}</p>
             </motion.div>
           ))}
         </div>

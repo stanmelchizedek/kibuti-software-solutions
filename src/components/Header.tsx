@@ -12,11 +12,11 @@ export default function Header() {
             </h1>
           </Reveal>
           <Reveal>
-            <p className="mt-8 mb-12 text-normal">
+            <p className="mt-8 mb-6 text-normal">
             Elevating Experiences Through Innovative Software Solutions. Empowering Businesses with Cutting-Edge Technology
             </p>
           </Reveal>
-          <button className="text-blue-950 border-2 border-blue-950 rounded-lg font-semibold py-2 px-4 hover:bg-slate-300 transition ease-in duration-100">Book a meeting</button>
+          <button className="text-blue-950 border-2 border-blue-950 rounded-lg font-semibold py-1 px-3 hover:bg-slate-300 transition ease-in duration-100">Book a meeting</button>
         </div>
         <img className="sm:w-1/2 mx-auto" src="/assets/images/computer-header.svg" alt="" />
       </div>

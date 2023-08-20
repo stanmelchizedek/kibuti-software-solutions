@@ -2,8 +2,8 @@ export default function AboutUs(){
     return (
         <div className="bg-blue-900 relative">
             <img src="assets/images/wavesOpacity.svg" className="w-full h-24 top-0" alt="" />
-            <div className="flex items-center container mx-auto gap-8 py-16">
-                <img className="w-1/2" src="assets/images/about-us-img.svg" alt="" />
+            <div className="flex items-center flex-col-reverse sm:flex-row container mx-auto gap-8 py-16 px-8">
+                <img className="md:w-1/2" src="assets/images/about-us-img.svg" alt="" />
                 <div className="text-white">
                     <h1 className="text-xl">ABOUT US</h1>
                     <h3 className="text-3xl my-4">WHO ARE WE?</h3>
